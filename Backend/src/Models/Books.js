@@ -9,6 +9,7 @@ const BooksSchema = new mongoose.Schema(
     price: Number,
     stock: Number,
     category: String,
+    caption:string
   },
   { timestamps: true }
 );
